@@ -1,0 +1,89 @@
+
+body {
+  background: #1E1E1E;
+  font-size: 1.2rem;
+}
+
+.darkgray {
+  background: #1E1E1E;
+  color: white;
+}
+
+h2 {
+  /* text-align: center; */
+  font-weight: bold;
+  background-color: #1E1E1E ;
+  color: white;
+  /* text-align: left; */
+}
+/*
+h4 {
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  color: #0BADA6;
+} */
+
+p {
+  font-weight: normal;
+  text-align: justify;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.bg-light{
+  color: white;
+}
+
+.box {
+  min-height: 50px;
+  padding: 30px;
+  margin: 30px;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+  fill: white;
+  color: white;
+}
+
+
+.myimage{
+  heigh: 150px;
+  width: 150px;
+  border-style: groove;
+  border-color: white;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.myimage:active, .myimage:focus, .myimage:hover {
+  border: 2px solid red;
+}
+
+.centered {
+  text-align: center;
+}
+
+.table{
+  font-size: 0.8rem;
+}
+
+.button {
+  margin-left: 20px;
+  color: white;
+}
+
+a {
+  color: red;
+}
+
+a:visited {
+  color: red;
+}

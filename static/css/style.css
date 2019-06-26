@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+#map {
+  min-height: 500px;
+  min-width: 800px;
+  background: black;
+
+},
+body,
+html {
+  height: 100%;
+}
+
+
+.info {
+    padding: 6px 8px;
+    /* background: white; */
+    background: #a9a7a7;
+    /* box-shadow: 0 0 15px white; */
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+title, h1, h4, h5{
+  text-align: center;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+h2 {
+  /* text-align: center; */
+  font-weight: bold;
+  background-color: #1E1E1E ;
+  color: white;
+  /* text-align: left; */
+}
+
+.footnote {
+  text-align: center;
+  /* font-size: 9pt; */
+}
+
+
+.darkgray {
+  background: #1E1E1E;
+  color: white;
+}
+
+a:hover {
+    color: inherit;
+}
+
+
+.myimage{
+  heigh: 150px;
+  width: 150px;
+  border-style: groove;
+  border-color: white;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.myimage:active, .myimage:focus, .myimage:hover {
+  border: 2px solid red;
+}
+
+.centered {
+  text-align: center;
+}
+
+
+.button {
+  margin-left: 20px;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+}
